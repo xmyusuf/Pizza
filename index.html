@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="wrapper container-sm">
+    <div class="row">
+      <h1 class="wrapper--heading text-center">Pitsa buyurtma qilish</h1>
+
+      <form class="col-8" id="order-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="bread-wrapper">
+          <h2 class="bread-heading">Noni qanday bo'lsin?</h2>
+          <select name="qalinligi" id="select">
+
+          </select>
+        </div>
+
+        <div class="size-wrapper">
+          <h2 class="size-heading">O'lchami</h2>
+        </div>
+        
+        <div class="products-wrapper">
+          <h2 class="products-heading">Ustiga nima solaylik?</h2>
+          <div class="products-mini-wrap">
+
+          </div>
+        </div>
+
+        <div class="extra-wrapper">
+          <h2 class="extra-heading">Qo'shimchalar</h2>
+        </div>
+      </form>
+
+      <div class="amount-wrap col-4">
+        <div class="mini-wrapper">
+          <p class="option-p">Non:</p>
+        </div>
+
+        <div>
+          <p class="radio-p">Kattaligi:<span class="radio-span"></span></p>
+        </div>
+        
+        <div class="extra-wrapper">
+          <p class="checkbox-p">Ustida:</p>
+          <ul class="checkbox-list">
+            
+          </ul>
+        </div>
+
+        <div class="extra-mini-wrapper">
+          <p class="mini-checkbox-p">Qo'shimcha:<span class="mini-checkbox-span"></span></p>
+          <ul class="mini-checkbox-list">
+
+          </ul>
+        </div>
+      </div>
+      <button class="btn-form btn-danger w-25" form="order-form" type="submit">Buyurtma berish</button>
+    </div>
+  </div>
+
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
